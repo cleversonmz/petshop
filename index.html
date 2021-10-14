@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1"/>
+		<link type="text/css" rel="stylesheet" href="fontawesome/css/all.min.css"/>
+		<title></title>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+				font-size: 100%;
+				box-sizing: border-box;
+			}
+
+			html {
+				width: 100%;
+				height: 100vh;
+				font-family: Sans-serif;
+				overflow-y: scroll;
+			}
+
+			body {
+				margin: 0;
+				padding: 0;
+				width: 100%;
+				font-size: 13px;
+			}
+
+			a {
+				text-decoration: none;
+			}
+
+			ul {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+			}
+
+			.site-wrapper {
+				width: 100%;
+				height: auto;
+				min-height: 100%;
+			}
+
+			.section {
+				width: 100%;
+				height: 80%;
+			}
+
+			.container {
+				position: relative;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			.full-width {
+				width: 100% !important;
+				max-width: 100% !important;
+			}
+
+			.menu {
+			}
+
+			.header {
+				width: 100%;
+				height: 7rem;
+			}
+
+			.header .home-section {
+				height: 4rem;
+				line-height: 4rem;
+				display: flex;
+				flex-direction: row;
+				flex-grow: 2;
+				border-bottom: 2px solid #1abc9c;
+			}
+
+			.header .home-section ul {
+				height: 100%;
+			}
+
+			.header .main-menu-section {
+				height: 3rem;
+				display: flex;
+				flex-direction: row;
+				flex-grow: 2;
+			}
+
+			.header .home-section .title {
+				font-size: 1.6em;
+				font-weight: 700;
+			}
+
+			ul.main-menu {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+				font-size: 100%;
+				font-weight: 700;
+				display: flex;
+				flex-direction: row;
+			}
+
+			ul.main-menu li {
+				width: 20%;
+				height: 100%;
+			}
+
+			ul.main-menu li a {
+				width: 100%;
+				height: 100%;
+				display: block;
+				text-align: center;
+				line-height: 3em;
+				color: green;
+			}
+
+			ul.main-menu li a:hover {
+				background-color: rgba(72, 201, 176, 0.3);
+			}
+
+			.section > .page-banner {
+				width: 100%;
+				height: 35%;
+				padding: 0.5em;
+			}
+
+			.section-title {
+				height: 4em;
+				text-align: center;
+				background-color: rgba(26, 188, 156, 0.3);
+				border-radius: 3px;
+				margin: 0.5em;
+			}
+
+			.section-title > .title {
+				font-size: 3em;
+				font-weight: 700;
+			}
+
+			.information-circle {
+				width: 35%;
+				height: 35%;
+				border-radius: 50%;
+				background-color: rgba(255, 255, 255, 0.3);
+
+			}
+
+			.image-gallery {
+				width: 280px;
+				height: 280px;
+				border-radius: 8px;
+			}
+
+			.gallery {
+				width: 88%;
+				margin: auto;
+			}
+
+			.gallery > .column {
+				margin: 0.5em;
+			}
+
+			.columns {
+				display: flex;
+			}
+
+			.row {
+				width: 100%;
+			}
+
+			.footer {
+				width: 100%;
+				height: 25%;
+			}
+
+			.is-four-fifths {
+				width: 80%;
+			}
+
+			.is-three-fifths {
+				width: 60%;
+			}
+
+			.is-two-fifths {
+				width: 40%;
+			}
+
+			.is-one-fifth {
+				width: 20%;
+			}
+
+			.is-full {
+				width: 100%;
+			}
+
+			@media screen and (max-width: 600px) {
+			}
+		</style>
+		<script type="text/javascript">
+			document.addEventListener('DOMContentLoaded', function(event) {
+			});
+		</script>
+	</head>
+	<body>
+		<div class="site-wrapper">
+			<div class="header">
+				<div class="home-section">
+					<ul class="menu" style="width: 60%;">
+						<li class="is-three-fifths" style="padding-left: 4em;">
+							<a href="javascript:void(0)" class="title">
+								<span style="color: #000;">Pet</span>
+								<span style="color: green;">Care</span>
+							</a>
+						</li>
+						<li class="is-two-fifths">
+						</li>
+					</ul>
+					<ul class="info-section" style="width: 40%;">
+						<li>
+							<a href="javascript:void(0)">
+								<div class="columns">
+									<div class="column" style="margin-right: 1em;">
+										<i class="fas fa-map-marker-alt" style="font-size: 1.4em;"></i>
+									</div>
+									<div class="column">
+										<span>2277 Loren Ave San Diego</span>
+									</div>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="main-menu-section">
+					<ul class="main-menu" style="width: 80%;">
+						<li>
+							<a href="javascript:void(0)">Home</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">Animais</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">Serviços</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">Produtos</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">Contato</a>
+						</li>
+					</ul>
+					<ul style="width: 20%;">
+						<li>
+							<a href="javascript:void(0)">
+								<i class="fas fa-facebook" style="font-size: 1.4em;"></i>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">
+								<i class="fas fa-instagram" style="font-size: 1.4em;"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="contact-section">
+				</div>
+			</div>
+			<div class="section">
+				<img src="pictures/Dog_Flowers.jpg" class="page-banner"/>
+			</div>
+			<div class="section">
+				<div class="section-title">
+					<h1 class="title">Animais</h1>
+				</div>
+				<div class="columns gallery">
+					<div class="column">
+						<img src="pictures/cachorro_280_280.jpg" class="image-gallery"/>
+					</div>
+					<div class="column">
+						<img src="pictures/gato_280_280.jpg" class="image-gallery"/>
+					</div>
+					<div class="column">
+						<img src="pictures/passaro_280_280.jpg" class="image-gallery"/>
+					</div>
+					<div class="column">
+						<img src="pictures/roedor_280_280.jpg" class="image-gallery"/>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+			</div>
+		</div>
+	</body>
+</html>
